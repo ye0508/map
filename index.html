@@ -75,6 +75,7 @@
         };
 
         function showPosition(position) {
+            alert('正确' + JSON.stringify(position))
             console.log(position)
             positionNum++;
             document.getElementById("demo").innerHTML += "序号：" + positionNum;
@@ -83,6 +84,7 @@
         };
 
         function showErr() {
+            alert('错误')
             var _this = this;
             var data = {
                 key: "MBKBZ-CBUWD-QI24X-HHUNG-4XJHJ-IFB6U",
